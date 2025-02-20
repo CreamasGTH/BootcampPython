@@ -1,0 +1,236 @@
+
+/* Importar fuentes */
+@font-face {
+    font-family: 'TipografiaTextos';
+    src: url(/fonts/AtkinsonHyperlegible-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'TipografiaTitulos';
+    src: url(/fonts/NortHeadline-Cond.ttf) format('truetype');
+  }
+
+  /* Estilos generales: Fondo de cuerpo */
+body{
+    background-color: #FFE667 !important;
+    background-image: url(/img/descarga.png);
+    background-size: 1000px 700px;
+}
+
+/*--------------------Nav-bar Crea--------------------------*/
+
+/*Colores nav*/
+.navbar{
+    background-color: #0C00C0;
+    font-family: 'TipografiaTitulos';
+    font-size: 30px
+}
+
+.nav-link:hover{
+    color:#FFE667 !important;
+}
+
+/*Posición de listados*/
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+  .navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+    /*Logo nav*/
+.logoCrea{
+    width: 120px;
+    vertical-align: middle;
+    margin-top: -0.25rem;
+    
+}
+
+/*--------------------Cuerpo-----------------------*/
+.crea-banner{
+    margin-top: 100px;
+    margin-bottom: 30px; 
+}
+
+.imgrobot{
+    width: 75%;
+}
+
+
+.contenido{
+    font-family: 'TipografiaTitulos';
+    font-size: 80px;
+    color: #0C00C0;
+}
+.centrado-botones{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 110px;
+    width: 60%; /* Ajusta según necesidad */
+    height: 500px; /* Ajusta según necesidad */
+
+}
+
+
+
+.botones > .btn{
+   background-color: #0d00c000;
+   border: #000000;
+   color: #0C00C0;
+   font-size: 40px;
+   font-family: 'TipografiaTextos';
+}
+
+/*Modals*/
+.modal-content{
+    background-color: #FFE667 !important;
+
+}
+
+.modal-header{
+    color: #0C00C0 !important;
+    font-family: 'TipografiaTitulos';
+}
+
+.modal-header > h1{
+
+    font-family: 'TipografiaTitulos';
+    font-size: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+th, td {
+    color: #0C00C0 !important;
+    padding-left: 30px  !important;
+    padding-right: 40px  !important;
+    
+  }
+  
+table{
+    font-size: x-large;
+    border-collapse: separate !important;
+    border-spacing:20px 20px !important;
+}
+th{
+    text-align: center;
+    font-family: 'TipografiaTitulos';
+    background-color:#A8DE73 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px  !important;
+    font-size: 25px;
+} 
+
+td{
+    padding-top: 20px !important;
+    padding-bottom: 20px  !important;
+    font-family: 'TipografiaTextos';
+    font-size: 25px;
+}
+tr > td > span{
+    font-size: 25px;
+    font-family: 'TipografiaTitulos';
+}
+
+.footer-tabla{
+    color: #000000 !important;
+    font-size: 20px;
+}
+
+
+.contenedor-tabla2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table.blueTable {
+    border: 3px solid #a0a0a000;
+    background-color: #FFFFFF;
+    width: 60%;
+    text-align: center;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 3px solid #87878700;
+    padding: 4px 3px;
+  }
+  table.blueTable tbody td {
+    font-size: 17px;
+  }
+
+
+
+
+.container-footer{
+    background-color: #0C00C0;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+    font-family: 'TipografiaTitulos';
+    font-size: 40px;
+    color: white;
+}
+.container-footer p{
+    margin-top: 20px;
+}
+
+.contenido-notas{
+    margin-top: -100px;
+    display: flex; /* Activa el diseño flexible */
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.contenido-notas > img{
+    display: flex; /* Activa el diseño flexible */
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.contenido-notas > p{
+    font-family: 'TipografiaTextos';
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+    .imgrobot{
+        margin-top: -35px;
+        width: 95%;
+    }
+    .contenido{
+        font-family: 'TipografiaTitulos';
+        font-size: 50px;
+    } 
+}
