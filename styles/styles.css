@@ -26,6 +26,10 @@ body{
     font-size: 30px
 }
 
+.nav-link {
+    color: white !important;
+}
+
 .nav-link:hover{
     color:#FFE667 !important;
 }
@@ -75,6 +79,9 @@ body{
 
 }
 
+.btn-close {
+    background-color: #0C00C0 !important;
+}
 
 .botones{
     display: grid;
@@ -88,12 +95,20 @@ body{
 
 
 .botones > .btn{
-   background-color: #0d00c000;
-   border: #000000;
-   color: #0C00C0;
+   background-color: #0C00C0 !important;
+   border: 3px solid #A8DE73 !important;
    font-size: 40px;
    font-family: 'TipografiaTextos';
+   box-shadow: 10px 10px 10px #0C00C0;
 }
+
+.botones > .btn:hover{
+    background-color: #FF98DD !important;
+    border: 3px solid #A8DE73 !important;
+    font-size: 40px;
+    font-family: 'TipografiaTextos';
+    box-shadow: 10px 10px 10px #0C00C0;
+ }
 
 /*Modals*/
 .modal-content{
@@ -221,6 +236,9 @@ table.blueTable {
     text-align: center;
 }
 
+#button-modal {
+    background-color: #0C00C0;
+}
 
 
 @media only screen and (max-width: 768px) {
