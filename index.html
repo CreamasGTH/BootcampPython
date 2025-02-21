@@ -45,34 +45,52 @@
     </header>
 
     <!--Banner Crea-->
-  <div class="crea-banner">
-    <img src="img/crea.png" class="rounded mx-auto d-block imgrobot" alt="robotcrea">
-  </div>
+<div class="crea-banner">
+  <img src="img/crea.png" class="rounded mx-auto d-block imgrobot" alt="robotcrea">
+</div>
 
-  <!--Contenido-->
-  <div class="container-contenido ">
-    <h1 class="text-center contenido fundamentos ">FUNDAMENTOS DE PROGRAMACIÓN EN PYTHON</h1>
-  </div>
-  <!--Botones-->
+<!--Contenido-->
+<div class="container-contenido">
+  <h1 class="text-center contenido fundamentos">FUNDAMENTOS DE PROGRAMACIÓN EN PYTHON</h1>
+</div>
+
+<!--Botones-->
 <div class="centrado-botones">
   <div class="botones">
-    <button type="button" class="btn btn-primary arriba-izquierda" data-bs-toggle="modal" data-bs-target="#s1">
+    <button type="button" class="btn btn-primary arriba-izquierda zoom-btn" data-bs-toggle="modal" data-bs-target="#s1">
       <i class="fa-brands fa-python"></i> Sesión 1: Introducción a Python
     </button>
   
-    <button type="button" class="btn btn-primary arriba-derecha" data-bs-toggle="modal" data-bs-target="#s2">
+    <button type="button" class="btn btn-primary arriba-derecha zoom-btn" data-bs-toggle="modal" data-bs-target="#s2">
       <i class="fa-solid fa-list"></i> Sesión 2: Listas, duplas y diccionarios
     </button>
   
-    <button type="button" class="btn btn-primary abajo-izquierda" data-bs-toggle="modal" data-bs-target="#s3">
+    <button type="button" class="btn btn-primary abajo-izquierda zoom-btn" data-bs-toggle="modal" data-bs-target="#s3">
       <i class="fa-solid fa-folder-tree"></i> Sesión 3: Estructuras de Control
     </button>
   
-    <button type="button" class="btn btn-primary abajo-derecha" data-bs-toggle="modal" data-bs-target="#s4">
+    <button type="button" class="btn btn-primary abajo-derecha zoom-btn" data-bs-toggle="modal" data-bs-target="#s4">
       <i class="fa-solid fa-book"></i> Sesión 4: Funciones
     </button>
   </div>
 </div>
+
+<style>
+  .zoom-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .zoom-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .zoom-btn:active {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
 
 
 <!-- Modal 1 -->
