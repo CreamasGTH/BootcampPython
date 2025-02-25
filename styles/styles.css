@@ -325,13 +325,9 @@ table.blueTable {
     gap: 10px; /* Espacio entre la imagen y el texto */
 }
 
-.contenido-anuncios{
-    margin-top: -65px !important;
-}
 
-.contenido-zoom{
-    
-}
+
+
 
 .contenido-notas  img{
     display: flex; /* Activa el diseño flexible */
